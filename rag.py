@@ -11,8 +11,8 @@ sentences = [
 embeddings = model.encode("今天天气很好")
 
 print(f"向量维度：{embeddings.shape}")
-# print(f"第一个句子的向量（前10个数字）：{embeddings[0][:10]}")
-print(f"第一个句子的向量（前10个数字）：{embeddings[:10]}")
+print(f"第一个句子的向量（前10个数字）：{embeddings[0][:10]}")
+# print(f"第一个句子的向量（前10个数字）：{embeddings[:10]}")
 # extend
 import numpy as np
 
