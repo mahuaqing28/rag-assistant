@@ -1,4 +1,4 @@
-# DAY 2 学习笔记
+# DAY 2 embedding and chromaDB
 运行 rag.py
 ```python
 embeddings = model.encode(sentences)
