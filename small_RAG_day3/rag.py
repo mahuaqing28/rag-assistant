@@ -18,8 +18,8 @@ chroma_client = chromadb.Client()
 collection = chroma_client.create_collection("knowledge")
 
 deepseek = OpenAI(
-    api_key=os.getenv("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com"
+    api_key=os.getenv("MOONSHOT_API_KEY"),
+    base_url="https://api.moonshot.cn/v1"
 )
 
 # 假装这是你的"知识库"
