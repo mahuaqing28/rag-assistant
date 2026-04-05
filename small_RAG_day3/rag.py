@@ -68,3 +68,4 @@ def rag_query(question: str):
 
 # 测试
 rag_query("我入职两年了，能休几天年假？")
+
